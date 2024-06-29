@@ -1,0 +1,42 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon",
+    "test": "vitest",
+    "build": "tsc"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "src"
+    ],
+    "exec": "tsc && node --inspect ./dist/main.js",
+    "ext": "ts,js,json"
+  },
+  "keywords": [],
+  "author": "loic.say@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "algoliasearch": "^4.24.0",
+    "byte-size": "^8.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "filesize-parser": "^1.5.0",
+    "gray-matter": "^4.0.3",
+    "parse-link-header": "^2.0.0",
+    "simple-git": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/filesize-parser": "^1.5.3",
+    "@types/node": "^20.14.9",
+    "@types/parse-link-header": "^2.0.3",
+    "nodemon": "^3.1.4",
+    "typescript": "^5.5.2",
+    "vitest": "^1.6.0"
+  }
+}

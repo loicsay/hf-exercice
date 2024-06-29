@@ -1,0 +1,134 @@
+.ais-SearchBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.ais-SearchBox-form {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.ais-SearchBox-input {
+  height: 50px;
+  width: 400px;
+  font-size: 16px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 64px;
+  color: white;
+  padding-left: 18px;
+}
+.ais-SearchBox-input::placeholder {
+  color: #535c91;
+}
+
+.ais-SearchBox-reset,
+.ais-SearchBox-submit {
+  display: none;
+}
+
+.ais-SearchBox-reset {
+  margin-left: 8px;
+  background: white;
+}
+
+.ais-InfiniteHits {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.ais-InfiniteHits-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ais-InfiniteHits-item {
+  width: 700px;
+}
+
+.ais-InfiniteHits-loadMore {
+  background: white;
+}
+
+.ais-InfiniteHits-loadMore--disabled {
+  display: none;
+}
+
+.ais-RangeInput-input {
+  height: 30px;
+  padding: 4px 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  background: white;
+  border: 1px solid black;
+  color: black;
+}
+
+.ais-RangeInput-form {
+  margin-left: 12px;
+}
+
+.ais-RangeInput-separator {
+  margin: 0 8px;
+}
+
+.ais-RangeInput-submit {
+  padding: 4px 12px;
+  margin-left: 12px;
+}
+
+.hit {
+  border-radius: 12px;
+  border: 2px solid #9290c3;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.hit-attribute {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.hit-attribute dt {
+  width: 20%;
+  font-weight: bold;
+}
+
+.hit-attribute dd {
+  width: 80%;
+  margin-left: 8px;
+  overflow-wrap: break-word;
+}
+
+.hit-attribute pre {
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 12px;
+  white-space: break-spaces;
+}
+
+.hit-readme-rendered dt {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.hit-readme-rendered dd {
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 12px;
+  white-space: break-spaces;
+  margin: 0;
+  overflow: auto;
+}
+
+.rangeInput {
+  font-weight: bold;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
